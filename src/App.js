@@ -3,12 +3,12 @@ import './App.css';
 import Home from './Home'
 import Contact from './Components/Contact'
 import 'antd/dist/antd.css';
-import { BrowserRouter, Switch, Route } from "react-router-dom"
+import { HashRouter , Switch, Route } from "react-router-dom"
 
 function App() {
   return (
 
-    <BrowserRouter>
+    <HashRouter basename='/'>
       <div>
         <Switch>
           <Route exact path="/">
@@ -19,16 +19,12 @@ function App() {
             <Contact />
           </Route>
 
-          <Route exact path="/tablet">
-            <h1>Lol</h1>
-          </Route>
-
           <Route path="*">
                 <Home />
           </Route>
         </Switch>
       </div>
-    </BrowserRouter>
+    </HashRouter >
   );
 }
 
