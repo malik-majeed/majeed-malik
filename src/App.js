@@ -15,7 +15,7 @@ function App() {
             <Home />
           </Route>
 
-          <Route exact path="/kontakt">
+          <Route exact path="/majeed-malik/kontakt">
             <Contact />
           </Route>
 
