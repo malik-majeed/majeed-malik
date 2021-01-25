@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/majeed-malik/static/css/main.263c74fd.chunk.css",
-    "main.js": "/majeed-malik/static/js/main.aa2649bf.chunk.js",
-    "main.js.map": "/majeed-malik/static/js/main.aa2649bf.chunk.js.map",
-    "runtime-main.js": "/majeed-malik/static/js/runtime-main.814677aa.js",
-    "runtime-main.js.map": "/majeed-malik/static/js/runtime-main.814677aa.js.map",
+    "main.js": "/majeed-malik/static/js/main.0d4e3882.chunk.js",
+    "main.js.map": "/majeed-malik/static/js/main.0d4e3882.chunk.js.map",
+    "runtime-main.js": "/majeed-malik/static/js/runtime-main.74a9b727.js",
+    "runtime-main.js.map": "/majeed-malik/static/js/runtime-main.74a9b727.js.map",
     "static/css/2.92569678.chunk.css": "/majeed-malik/static/css/2.92569678.chunk.css",
-    "static/js/2.e3172712.chunk.js": "/majeed-malik/static/js/2.e3172712.chunk.js",
-    "static/js/2.e3172712.chunk.js.map": "/majeed-malik/static/js/2.e3172712.chunk.js.map",
-    "static/js/3.db77d74a.chunk.js": "/majeed-malik/static/js/3.db77d74a.chunk.js",
-    "static/js/3.db77d74a.chunk.js.map": "/majeed-malik/static/js/3.db77d74a.chunk.js.map",
+    "static/js/2.0204e4f6.chunk.js": "/majeed-malik/static/js/2.0204e4f6.chunk.js",
+    "static/js/2.0204e4f6.chunk.js.map": "/majeed-malik/static/js/2.0204e4f6.chunk.js.map",
+    "static/js/3.ca6aa981.chunk.js": "/majeed-malik/static/js/3.ca6aa981.chunk.js",
+    "static/js/3.ca6aa981.chunk.js.map": "/majeed-malik/static/js/3.ca6aa981.chunk.js.map",
     "index.html": "/majeed-malik/index.html",
     "static/css/2.92569678.chunk.css.map": "/majeed-malik/static/css/2.92569678.chunk.css.map",
     "static/css/main.263c74fd.chunk.css.map": "/majeed-malik/static/css/main.263c74fd.chunk.css.map",
-    "static/js/2.e3172712.chunk.js.LICENSE.txt": "/majeed-malik/static/js/2.e3172712.chunk.js.LICENSE.txt",
+    "static/js/2.0204e4f6.chunk.js.LICENSE.txt": "/majeed-malik/static/js/2.0204e4f6.chunk.js.LICENSE.txt",
     "static/media/majeed_malik.291153d2.jpg": "/majeed-malik/static/media/majeed_malik.291153d2.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.814677aa.js",
+    "static/js/runtime-main.74a9b727.js",
     "static/css/2.92569678.chunk.css",
-    "static/js/2.e3172712.chunk.js",
+    "static/js/2.0204e4f6.chunk.js",
     "static/css/main.263c74fd.chunk.css",
-    "static/js/main.aa2649bf.chunk.js"
+    "static/js/main.0d4e3882.chunk.js"
   ]
 }
