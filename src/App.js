@@ -1,7 +1,6 @@
 import './App.css';
 
 import Home from './Home'
-import Contact from './Components/Contact'
 import 'antd/dist/antd.css';
 import { HashRouter, Switch, Route } from "react-router-dom"
 
@@ -13,10 +12,6 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Home />
-          </Route>
-
-          <Route exact path="/majeed-malik/kontakt">
-            <Contact />
           </Route>
 
           <Route path="*">

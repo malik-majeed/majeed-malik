@@ -7,6 +7,8 @@ import ImageCarousel from './Components/Carousel.js'
 import ProjectCard from './Components/Card.js'
 import TimelineOne from './Components/TimelineOne.js'
 import TimelineTwo from './Components/TimelineTwo.js'
+import Contact from './Components/Contact.js'
+import Picture from './images/majeed_malik.jpg'
 import { Row, Col } from 'antd';
 import { Card, Divider } from 'antd';
 
@@ -43,7 +45,7 @@ class Home extends React.Component {
                                 <Divider />
                             </Row>
                             <Row style={{ padding: '50px' }} id="reference">
-                                <Col span={24} style={{ paddingBottom: '50px', textAlign: 'left' }}>
+                                <Col span={24} style={{ paddingBottom: '25px', textAlign: 'left' }}>
                                     <h1>Meine bisherigen Stationen</h1>
                                 </Col>
                                 <Col xs={24} xl={11}>
@@ -58,12 +60,21 @@ class Home extends React.Component {
                                 <Divider />
                             </Row>
                             <Row style={{ padding: '50px' }} id="projects">
-                                <Col span={24} style={{ paddingBottom: '50px', textAlign: 'left' }}>
+                                <Col span={24} style={{ paddingBottom: '10px', textAlign: 'left' }}>
                                     <h1>Auswahl realisierter Projekte</h1>
                                 </Col>
                                 <Col xs={24} xl={8}><ProjectCard name="ÖPNV-Transparenzregister"></ProjectCard></Col>
                                 <Col xs={24} xl={8}><ProjectCard name="Project 2"></ProjectCard></Col>
                                 <Col xs={24} xl={8}><ProjectCard name="Project 3"></ProjectCard></Col>
+                            </Row>
+                            <Row style={{ padding: '50px' }} id="contact">
+                            <Col span={24} style={{ paddingBottom: '25px', textAlign: 'left' }}>
+                                    <h1>Kontakt</h1>
+                                </Col>
+                                <Col xs={12} xl={3}><img src={Picture} style={{ height: '100', width: '100%' }} alt="Majeed Malik" /></Col>
+                                <Col xs={12} xl={21}>
+                                    <Contact></Contact>
+                                </Col>
                             </Row>
                         </div>
                     </Content>
