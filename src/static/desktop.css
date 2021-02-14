@@ -1,0 +1,12 @@
+
+@media screen and (min-width: 1025px) {
+
+    .content-container{
+        padding: 50px;
+    }
+
+    p {
+        font-size: medium;
+    }
+
+}

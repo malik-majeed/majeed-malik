@@ -36,7 +36,6 @@ class TopHeader extends React.Component {
                                 Kontakt
                             </a>
                         </Menu.Item>
-                        <Menu.Item key="5">Impressum</Menu.Item>
                     </Menu>
                 </Header>
                 </HashRouter>
